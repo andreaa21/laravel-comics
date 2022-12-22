@@ -77,3 +77,26 @@ header{
         }
     }
 }
+
+
+.jumbotron{
+    min-height: 400px;
+    background-image: url('/resources/img/jumbotron.jpg');
+    background-size: cover;
+    .jumbo-container{
+        height: 400px;
+        position: relative;
+        margin-bottom: -.8rem;
+        button{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: $main-color;
+            border: none;
+            padding: .5rem 1rem;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+}

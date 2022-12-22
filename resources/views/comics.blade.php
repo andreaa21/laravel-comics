@@ -1,7 +1,9 @@
 @extends('layouts.main')
 
 @section('content')
-    <main>
-        Comics
-    </main>
+    <div class="jumbotron">
+        <div class="jumbo-container container">
+            <button>Current series</button>
+        </div>
+    </div>
 @endsection
