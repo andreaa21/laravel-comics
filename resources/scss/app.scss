@@ -35,3 +35,45 @@ img {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+
+header{
+    height: 120px;
+    .container{
+        height: 100%;
+        @include centerFlex('vertical');
+        justify-content: space-between;
+
+        .logo{
+            padding: 1rem 0;
+            img{
+                width: 80%;
+            }
+        }
+        nav{
+            height: 100%;
+
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            height: 100%;
+            li{
+                margin: 0 .5rem;
+            }
+            a{
+                color: $header-link-color;
+                height: 100%;
+                @include centerFlex('vertical');
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: .8rem;
+                &:hover{
+                    color: $main-color;
+                    border-bottom: 4px solid $main-color;
+                }
+            }
+        }
+    }
+}
