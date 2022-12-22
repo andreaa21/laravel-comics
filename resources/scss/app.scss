@@ -39,7 +39,16 @@ img {
 
 
 header{
-    height: 120px;
+    .header-top{
+        height: 25px;
+        background-color: $main-color;
+        .h-text{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: .7rem;
+        }
+
+    }
     .container{
         height: 100%;
         @include centerFlex('vertical');
@@ -72,6 +81,19 @@ header{
                 &:hover{
                     color: $main-color;
                     border-bottom: 4px solid $main-color;
+                }
+            }
+        }
+        .input-area{
+            border-bottom: 3px solid $main-color;
+            input{
+                border: none;
+                border-width: 0;
+                box-shadow: none;
+                &::placeholder{
+                    text-align: right;
+                    color: $main-bg-color;
+                    opacity: 1;
                 }
             }
         }
