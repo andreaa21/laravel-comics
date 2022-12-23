@@ -100,6 +100,7 @@ header{
     }
 }
 
+// jumbotron
 
 .jumbotron{
     min-height: 400px;
@@ -120,6 +121,39 @@ header{
             text-transform: uppercase;
             font-weight: 600;
         }
+    }
+}
+
+// main
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin-top: 100px;
+}
+
+.btn-container{
+    margin: 2rem 0;
+    button{
+      background-color: $main-color;
+      border: none;
+      padding: .5rem 2rem;
+      color: white;
+      text-transform: uppercase;
+
+    }
+  }
+
+  .x-card{
+    width: calc(100% / 6);
+    min-height: 300px;
+    padding: 1rem;
+    .card-text{
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
     }
 }
 
