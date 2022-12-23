@@ -107,21 +107,21 @@ header{
     background-image: url('/resources/img/jumbotron.jpg');
     background-size: cover;
     .jumbo-container{
-        height: 400px;
+        height: 100%;
         position: relative;
-        margin-bottom: -.8rem;
+        // margin-bottom: -.8rem;
         button{
             position: absolute;
             bottom: 0;
-            left: 0;
             background-color: $main-color;
             border: none;
             padding: .5rem 1rem;
             color: white;
             text-transform: uppercase;
-            font-weight: 600;
+            font-weight: bold;
         }
     }
+
 }
 
 // main
@@ -154,6 +154,44 @@ header{
         text-transform: uppercase;
         font-weight: bold;
         font-size: .8rem;
+    }
+}
+
+.wrapper {
+    background-color: $main-color;
+    height: 155px;
+    color: white;
+    @include centerFlex('vertical');
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0 .5rem;
+
+        li {
+            @include centerFlex('vertical');
+            width: calc(100% / 5);
+            margin: 0 .5rem;
+
+            .image {
+                height: 70px;
+                width: 60px;
+                margin-right: 1rem;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: .9rem;
+        }
     }
 }
 

@@ -225,5 +225,164 @@ return [
                 "Joëlle Jones"
             ],
         ],
+    ],
+
+    "component" => [
+
+        [
+            "text" => 'Digital Comics',
+            "href" => '#',
+            "src" => 'buy-comics-digital-comics.png'
+        ],
+        [
+            "text" => 'DC Merchandise',
+            "href" => '#',
+            "src" => 'buy-comics-merchandise.png'
+        ],
+        [
+            "text" => 'Subscriptions',
+            "href" => '#',
+            "src" => 'buy-comics-subscriptions.png'
+        ],
+        [
+            "text" => 'Comics Shop Locator',
+            "href" => '#',
+            "src" => 'buy-comics-shop-locator.png'
+        ],
+        [
+            "text" => 'DC Power Visa',
+            "href" => '#',
+            "src" => 'buy-dc-power-visa.svg'
+        ]
+
+    ],
+
+    "footer_links" => [
+        "dcComics" => [
+            [
+                "text" => 'Characters',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Comics',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Movies',
+                "href" => '#'
+            ],
+            [
+                "text" => 'TV',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Games',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Videos',
+                "href" => '#'
+            ],
+            [
+                "text" => 'News',
+                "href" => '#'
+            ]
+        ],
+        "shop" => [
+            [
+                "text" => 'Shop DC',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Shop DC Collectibles',
+                "href" => '#'
+            ]
+        ],
+        "dc" => [
+            [
+                "text" => 'Terms Of Use',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Privacy Policy (new)',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Advertising',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Job',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Subscriptions',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Talent Workshops',
+                "href" => '#'
+            ],
+            [
+                "text" => 'CPSC Certificates',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Ratings',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Shop Help',
+                "href" => '#'
+            ],
+            [
+                "text" => 'Contact Us',
+                "href" => '#'
+            ]
+        ],
+        "sites" => [
+            [
+                "text" => 'DC',
+                "href" => '#'
+            ],
+            [
+                "text" => 'MAD Magazine',
+                "href" => '#'
+            ],
+            [
+                "text" => 'DC Kids',
+                "href" => '#'
+            ],
+            [
+                "text" => 'DC Universe',
+                "href" => '#'
+            ],
+            [
+                "text" => 'DC Power Visa',
+                "href" => '#'
+            ]
+        ],
+        "socials" => [
+            [
+                "src" => 'footer-facebook.png',
+                "href" => '#'
+            ],
+            [
+                "src" => 'footer-pinterest.png',
+                "href" => '#'
+            ],
+            [
+                "src" => 'footer-twitter.png',
+                "href" => '#'
+            ],
+            [
+                "src" => 'footer-youtube.png',
+                "href" => '#'
+            ],
+            [
+                "src" => 'footer-periscope.png',
+                "href" => '#'
+            ]
+        ]
     ]
 ];
