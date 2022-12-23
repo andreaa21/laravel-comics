@@ -55,6 +55,13 @@
                 </div>
                 <div class="socials">
                     <h2>follow us</h2>
+                    <ul>
+                        @foreach ($socials as $social)
+                            <li><a href="{{ $social['href'] }}">
+                                    <img src="{{ $social['src'] }}" alt="">
+                                </a></li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>
