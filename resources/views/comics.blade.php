@@ -6,4 +6,6 @@
             <button>Current series</button>
         </div>
     </div>
+
+    @dump($comics)
 @endsection
